@@ -20,3 +20,5 @@ module "ec2_instance" {
   subnet_id              = module.vpc.public_subnet_id
   vpc_security_group_ids = [module.vpc.security_group_id]
 }
+
+# Alteração para forçar um novo workflow pelo GitHub Actions
