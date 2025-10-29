@@ -30,4 +30,4 @@ module "ec2_instance" {
   vpc_security_group_ids = [module.vpc.security_group_id]
 }
 
-# Alteração para forçar um novo workflow pelo GitHub Actions - 2
+# Alteração para forçar um novo workflow pelo GitHub Actions - 3
